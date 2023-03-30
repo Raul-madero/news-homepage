@@ -1,0 +1,76 @@
+body {
+    display: grid;
+    place-items: center;
+}
+header {
+    max-width: 1200px;
+}
+header .desktop-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.mobile-menu {
+    display: none;
+}
+.desktop-nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.desktop-nav ul li {
+    margin-right: 18px;
+}
+.desktop-nav ul li a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--darkGrayishBlue);
+}
+main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    max-width: 1200px;
+}
+.web3Container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40% 60%;
+}
+.mobile {
+    display: none;
+}
+.desktop {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: block;
+    width: 100%;
+}
+.newContainer {
+    margin-top: 0;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    grid-column-end: 3;
+    grid-column-start: 1;
+}
+.info .infoCard {
+    width: 100%;
+}
+.info .infoCard img {
+    width: 120px;
+    height: 140px;
+    margin: 0 2.4rem;
+}
+@media screen and (min-width: 1000px) {
+    .web3Container {
+        grid-template-rows: 60% 40%;
+    }
+}

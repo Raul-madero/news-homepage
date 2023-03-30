@@ -22,15 +22,123 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
+    margin: 30px 18px;
+}
+.logo {
+    width: 50px;
 }
 header .desktop-nav {
     display: none;
 }
+.web3Container {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
 .mobile {
-    width: 100%;
+    width: 90%;
+    align-self: center;
 }
 .desktop {
     display: none;
+}
+.web3Container h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--veryDarkBlue);
+    line-height: 40px;
+    margin: 24px 12px;
+    padding: 4px;
+}
+.web3Info p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 25px;
+    color: var(--darkGrayishBlue);
+    margin-right: 8px;
+    padding: 0 16px 0 0;
+}
+.web3Info button {
+    width: 200px;
+    height: 50px;
+    margin-top: 24px;
+    background-color: var(--softRed);
+    border: none;
+    color: var(--offWhite);
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.newContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    margin: 75px 12px;
+    padding: 24px;
+    background-color: var(--veryDarkBlue);
+}
+.newContainer h2 {
+    font-size: 3rem;
+    color: var(--softOrange);
+}
+.newContainer .newsCard {
+    margin-top: 24px;
+}
+.newContainer .newsCard:nth-child(3) {
+    border-bottom: 1px solid var(--darkGrayishBlue);
+    border-top: 1px solid var(--darkGrayishBlue);
+    padding-top: 28px;
+}
+.newContainer .newsCard a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--offWhite);
+}
+.newContainer .newsCard p {
+    font-size: 1.5rem;
+    color: var(--grayishBlue);
+    font-weight: 500;
+    line-height: 24px;
+    margin: 20px 0;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: baseline;
+    margin: 0 12px;
+}
+.info .infoCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+}
+.info .infoCard img {
+    width: 100px;
+    height: 120px;
+    margin-right: 30px;
+}
+.info .infoCard .infoContent h4 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--grayishBlue);
+    margin-bottom: 12px;
+}
+.info .infoCard .infoContent a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: var(--veryDarkBlue);
+    margin-bottom: 12px;
+}
+.info .infoCard .infoContent p {
+    font-size: 1.5rem;
+    color: var(--darkGrayishBlue);
+    margin: 12px 0 0 0;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
