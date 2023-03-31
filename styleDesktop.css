@@ -30,6 +30,9 @@ header .desktop-nav {
     font-size: 1.8rem;
     color: var(--darkGrayishBlue);
 }
+.mobile-nav {
+    display: none;
+}
 main {
     display: grid;
     grid-template-columns: 60% 40%;
