@@ -1,0 +1,30 @@
+:root {
+    --softOrange: hsl(35, 77%, 62%);
+    --softRed: hsl(5, 85%, 63%);
+    --offWhite: hsl(36, 100%, 99%);
+    --grayishBlue: hsl(233, 8%, 79%);
+    --darkGrayishBlue: hsl(236, 13%, 42%);
+    --veryDarkBlue: hsl(240, 100%, 5%);
+}
+.mobile-nav {
+    width: 250px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: 24px 12px;
+}
+.mobile-nav img {
+    width: 30px;
+    align-self: flex-end;
+}
+.mobile-nav ul {
+    list-style: none;
+}
+.mobile-nav ul li {
+    font-size: 1.5rem;
+    color: var(--darkGrayishBlue);
+    margin: 12px 0;
+}
+.inactive {
+    display: none;
+}

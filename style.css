@@ -41,6 +41,32 @@ header .desktop-nav {
     width: 90%;
     align-self: center;
 }
+.mobile-nav {
+    width: 75vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 24px 12px;
+    position: absolute;
+    top: 35px;
+    left: 65px;
+    background-color: var(--offWhite);
+}
+.mobile-nav img {
+    width: 30px;
+    align-self: flex-end;
+}
+.mobile-nav ul {
+    list-style: none;
+}
+.mobile-nav ul li {
+    font-size: 1.8rem;
+    color: var(--veryDarkBlue);
+    margin: 36px 35px;
+}
+.inactive {
+    display: none;
+}
 .desktop {
     display: none;
 }
